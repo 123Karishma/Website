@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.parents{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url("img4.avif");
+    background-position: center;
+ background-size: cover;
+    height: 100vh;
+}
+.contentClass{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.logo{
+   width: 200px;
+   float: left; 
+   height: 70px;
+}
+.logos{
+    color: rgb(240, 64, 29);
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    float:left;
+    padding-top: 10px;
+}
+.option{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+float: left;
+display: flex;
+justify-content: center;
+text-align: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+   
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color:rgb(240, 64, 29) ;
+}
+
+.start{
+    width: 330px; 
+    float: left;
+    margin-left: 250px;
+    margin-top: 8px;
+    justify-content: space-between;
+    
+}
+.start .anc{
+    font-size: 23px;
+    text-decoration: none;
+    color: rgb(240, 64, 29);
+}
+
+.batn{
+    width: 100px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid rgb(240, 64, 29);
+    margin-top: 13px;
+    margin-left: 45px;
+    color: white;
+    font-size: 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.4s ease-in-out;
+}
+.batn:hover{
+    background-color: rgb(240, 64, 29);
+}
+
+
+.container{
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+    padding-top: 50px;
+
+}
+.container h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 200px;
+    top: 15px;
+    letter-spacing: 2px;
+}
+.btn{
+    width: 170px;
+    height: 40px;
+    background-color: rgb(240, 64, 29);
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.container .btn a{
+ text-decoration: none;
+ color: rgb(0, 0, 0);
+ transition: .4s ease;
+}
+.btn:hover{
+    background-color: white;
+}
+.container span{
+    color: rgb(240, 64, 29);
+    font-size: 70px;
+}
+
+.contant{
+    width: 50vh;
+    height: 60vh;
+    background:linear-gradient(to top, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0.8) 50%);
+    position: absolute;
+    top: 20%;
+    left: 65%;
+    border-radius: 10px;
+    padding: 25px;
+}
+.contant h1{
+    color:rgb(240, 64, 29);
+    text-align: center;
+    margin-bottom: 4px;
+    font-size: 50px;
+}
+.contant input{
+    width: 50vh;
+    height: 5vh;
+    background: transparent;
+    border-bottom: 1px solid rgb(240, 64, 29);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.contant input:focus{
+    outline: none;
+
+}
+::placeholder{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.butn{
+    width: 50vh;
+    padding: 10px;
+    background-color: rgb(240, 64, 29);
+    border: none;
+    margin-top: 30px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: 0.4s ease;
+}
+.butn:hover{
+    background-color: white;
+    color: rgb(240, 64, 29);
+}
+
+.butn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+.lio{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding-top: 15px;
+    text-align: center;
+    color: white;
+}
+
+.lio a{
+    text-decoration: none;
+    font-size: 17px;
+    color: rgb(240, 64, 29);
+
+}
+.lio a:hover{
+    color: white;
+}
+.lg{
+padding-top: 15px;
+padding-bottom: 10px;
+text-align: center;
+color: white;
+}
+.icons{
+    font-size: 30px;
+    text-align: center;
+    color: aliceblue;
+    
+}
+.fa-facebook {
+    color: #1876f2e7; 
+}
+
+.fa-instagram {
+    color: #bc2a8d; 
+}
+
+.fa-twitter {
+    color: #1da1f2; 
+}
+
+.fa-google {
+    color: #db4a39; 
+}
+
+

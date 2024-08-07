@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contant{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url("img4.avif");
+    background-position: center;
+ background-size: cover;
+    height: 100vh;
+}
+.formt h1{
+    color:rgb(240, 64, 29);
+    text-align: center;
+    margin-bottom: 4px;
+    font-size: 50px;
+}
+
+.formt{
+    width: 50vh;
+    height: 60vh;
+    background:linear-gradient(to top, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0.8) 50%);
+    position: absolute;
+    top: 100px;
+    left: 600px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.formt h2{
+    width: 220px ;
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(240, 64, 29);
+    font-size: 22px;
+    background:linear-gradient(to top, rgb(236, 233, 230) 50%, rgb(237, 241, 242) 50%);
+    border-radius: 10px;
+    margin: 2px;
+    padding: 6px;
+}
+.formt input{
+    width: 50vh;
+    height: 5vh;
+    background: transparent;
+    border-bottom: 1px solid rgb(240, 64, 29);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.formt input:focus{
+    outline: none;
+
+}
+::placeholder{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.butn{
+    width: 50vh;
+    padding: 10px;
+    background-color: rgb(240, 64, 29);
+    border: none;
+    margin-top: 30px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: 0.4s ease;
+}
+.butn:hover{
+    background-color: white;
+    color: rgb(240, 64, 29);
+}
+
+.butn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+.lio{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding-top: 15px;
+    text-align: center;
+    color: white;
+}
+
+.lio a{
+    text-decoration: none;
+    font-size: 17px;
+    color: rgb(240, 64, 29);
+
+}
+.lio a:hover{
+    color: white;
+}
+.lg{
+padding-top: 15px;
+padding-bottom: 10px;
+text-align: center;
+color: white;
+}
+
+.icons a{
+text-decoration: none;
+}
+.icons{
+    font-size: 30px;
+text-align: center;
+    justify-content: space-between;
+    color: aliceblue;
+    margin-left: 10px;
+    
+}
+.fa-facebook {
+    color: #1876f2e7; 
+}
+
+.fa-instagram {
+    color: #bc2a8d; 
+}
+
+.fa-twitter {
+    color: #1da1f2; 
+}
+
+.fa-google {
+    color: #db4a39; 
+}
+
